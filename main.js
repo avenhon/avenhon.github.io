@@ -31,7 +31,7 @@ function SetImage() {
             a = 7;
             break;
         case 7:
-            document.getElementById('general-container').style.cssText = "background-image: url(/img/bg1.jpg);";
+            document.getElementById('general-container').style.cssText = "background-image: url(/img/bg1.png);";
             a = 0;
             break;
     }
