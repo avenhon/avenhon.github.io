@@ -37,4 +37,4 @@ function SetImage() {
     }
 }
 
-setInterval(SetImage, 6000)
+setInterval(SetImage, 4000)
