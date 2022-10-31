@@ -5,17 +5,15 @@ body {
 
 .nav-container {
   position: relative;
-  left: 470px;
-  width: 1000px;
+  width: auto;
   height: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+}
+
+.icon {
+  position: relative;
+  width: 125px;
+  height: 34px;
+  margin-left: 30px;
 }
 
 svg {
@@ -31,6 +29,35 @@ svg:hover {
   fill: #ffffff;
 }
 
+.general {
+  position: relative;
+  left: 500px;
+}
+
+.wiki {
+  position: relative;
+  left: 550px;
+  top: 7px;
+}
+
+.championship {
+  position: relative;
+  left: 600px;
+  top: 2px;
+}
+
+.records {
+  position: relative;
+  left: 650px;
+  top: 2px;
+}
+
+.bolids {
+  position: relative;
+  left: 700px;
+  top: 8px;
+}
+
 #wiki {
   height: 60px;
 }
@@ -42,16 +69,55 @@ svg:hover {
 #general-container {
   width: auto;
   height: 450px;
-  background-image: url(/img/bg1.png);
+  background-image: url(/img/bg2.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  -webkit-transition: background-image 0.6s ease-in-out;
-  transition: background-image 0.6s ease-in-out;
 }
 
 .darker {
   background: rgba(0, 0, 0, 0.5607843137);
   width: 100%;
   height: 100%;
+}
+
+.logo {
+  margin-top: 15px;
+  position: relative;
+  width: 260px;
+  height: 200px;
+  left: 840px;
+}
+
+.general-text {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 28px;
+}
+
+.join {
+  position: relative;
+  bottom: -20px;
+  left: 990px;
+  width: 165px;
+  height: 47px;
+  background-color: #4b9340e8;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.forum {
+  position: relative;
+  bottom: -20px;
+  left: 615px;
+  width: 165px;
+  height: 47px;
+  background-color: #7a7b7eda;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
 }
